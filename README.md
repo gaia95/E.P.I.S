@@ -70,4 +70,8 @@ Problem och motgångar:
   
 - Hade problem med att få mina "Good levels" kontra varningar att dyka upp på LCD - skärmen beroende på värdena. Löste det med en enkel if-sats.
 
+-----
+  
+Detta projekt var roligt att utföra men i min åsikt, långt ifrån färdig då jag tycker att varje projektide alltid kan förbättras.
+Det finns självklart fler faktorer att ha i åtanke, men detta är iallafall en början. 
 
