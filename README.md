@@ -39,3 +39,35 @@ ISSUING WARNING:
 
 ![](Warning%20.png)
 
+
+KOD REDOVISNING:
+
+Jag började med #include för att inkludera de nödvändiga bibliotek för detta projekt. 
+
+void setup():
+
+Startade kommunikationen mellan arduinon och enheterna som den sänder och mottar information från (LCD, LED, Sensor). 
+Eftersom arduino har en pin med inbygg lampa (pin 13) är den kopplade till glödlampan.
+TP står för Trigger Pin och representerar den del av distans sensorn som sänder ut ljudvågor/pulsvågor. Den är satt till OUTPUT då den ska sända ut signaler. 
+EP Står för Echo Pin och representerar den del som ska lyssna efter ljudvågorna som TP sänder ut. EP är satt till INPUT då den inväntar vågorna.
+
+void loop():
+
+I denna fas implementerade jag koden för avståndsmätaren för att säkerställa kontinuerlig mätning av distansen 
+och konstant övervakning av vattennivåerna.
+
+Då denna mätaren ska skicka ut varningar endast om det förekommer en fara, så har jag tillagt If-satser. 
+Dessa satser utgår ifrån hur värdena, som sensorn hämtar in, ser ut. Om ett villkor är sant, (antingen att distansen är för stor eller för liten) går varningen igång. Tillade även en liten fördröjning så att det ska bli en blinkande effekt så att man faktiskt ska bli uppmärksammad.
+
+-----
+
+Problem och motgångar:
+
+- Tanken var att använda en vattensensor för detektion av vatten, dock fanns det inte med på simulator hemsidan.
+  För att försöka lösa problemet på ett annat sätt valde jag istället en distansmätare som ska mäta avståndet till vattnet både horisontellt och vertikalt.
+
+- Fick inte igång LCD skärmen. Misstankarna låg kring huruvida sladdarna var felkopplade. Det visade sig att det var en fråga om själva simulatorn som verkade känslig   för siffror. Problemet löstes genom att skriva dem i en annan ordning.
+  
+- Hade problem med att få mina "Good levels" kontra varningar att dyka upp på LCD - skärmen beroende på värdena. Löste det med en enkel if-sats.
+
+
