@@ -71,7 +71,5 @@ Problem och motgångar:
 - Hade problem med att få mina "Good levels" kontra varningar att dyka upp på LCD - skärmen beroende på värdena. Löste det med en enkel if-sats.
 
 -----
-  
-Detta projekt var roligt att utföra men i min åsikt, långt ifrån färdig då jag tycker att varje projektide alltid kan förbättras.
-Det finns självklart fler faktorer att ha i åtanke, men detta är iallafall en början. 
 
+Projektet resulterade i en fungerande prototyp som kan ge varningar på en LCD-skärm. Framtida utvecklingsmöjligheter inkluderar att förbättra precisionen, lägga till fler sensorer och utöka funktionaliteten för att täcka andra områden.
