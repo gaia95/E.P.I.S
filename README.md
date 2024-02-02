@@ -31,7 +31,9 @@ strömmen.
 - Distans sensor: Ska mäta avståndet genom att skicka ut pulserande
 ljudvågor (Trigger) och se hur lång tid det tar för ljudvågorna att komma tillbaka som ett eko (Echo) efter att ha nått mottagaren/objektet.
 
+GOOD LEVELS:
 ![](GL.png)
 
+ISSUING WARNING:
 ![](Warning%20.png)
 
